@@ -35,4 +35,13 @@ This project is designed to predict employee attrition (i.e., whether an employe
    docker run -it --rm -p 9696:9696 zoomcamp-test
    ```
 
-This will start the container and expose the model on port 9696.
+   This will start the container and expose the model on port 9696.
+
+### 4. **Run the Prediction Script**
+   After the Docker container is running, you can use the `predict_test.py` script to test the model with a sample employee's data. This script contains test data for an employee, and running it will return the probability of attrition for that employee.
+
+   ```bash
+   python predict_test.py
+   ```
+
+   The script will output the probability of the employee leaving the company and whether the employee is predicted to attrite.
