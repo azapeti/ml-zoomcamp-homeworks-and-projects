@@ -3,7 +3,7 @@
 This project is designed to predict employee attrition (i.e., whether an employee will leave the company) using various machine learning models. The data includes a variety of employee attributes, such as job role, work-life balance, age, education level, and many others. We will use this data to develop and evaluate different machine learning models, including decision trees, random forests, and XGBoost, to identify the factors contributing to employee attrition.
 
 (The dataset used in this project is sourced from Kaggle. You can download it from the following link:
-   [Employee Attrition Dataset](https://www.kaggle.com/datasets/stealthtechnologies/employee-attrition-dataset))
+[Employee Attrition Dataset](https://www.kaggle.com/datasets/stealthtechnologies/employee-attrition-dataset))
 
 ### Key Goals:
 - Perform exploratory data analysis (EDA) to understand the dataset and identify key features.
@@ -21,3 +21,18 @@ This project is designed to predict employee attrition (i.e., whether an employe
    cd your-repository
    ```
 
+### 2. **Build the Docker Container**
+   The model runs inside a Docker container. To build the Docker image, use the following command:
+
+   ```bash
+   docker build -t zoomcamp-test .
+   ```
+
+### 3. **Run the Docker Container**
+   After building the Docker image, you can run the container with the following command:
+
+   ```bash
+   docker run -it --rm -p 9696:9696 zoomcamp-test
+   ```
+
+This will start the container and expose the model on port 9696.
