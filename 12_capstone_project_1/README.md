@@ -44,3 +44,29 @@ In the notebook, you will find detailed explanations in the following sections:
 - **Takeaways**: Summaries of key insights and learnings, like how SMOTE improved predictions for underrepresented drug categories.
 
 These sections provide clarity on the thought process, justifications, and results behind the project, encouraging a deeper understanding of the work.
+
+---
+
+## Running the Project in a Docker Container
+
+The project is designed to run in a **Docker container** for ease of setup and consistency. Ensure that Docker is installed and running on your machine before proceeding.
+
+### Steps to Run the Project:
+1. **Pull the base Docker image**:
+   ```bash
+   docker run -it --rm python:3.12.8-slim
+
+2. **Build the Docker container**:
+   ```bash
+   docker build -t drug-classification .
+
+3. **Run the Docker container**:
+   ```bash
+   docker run -it --rm -p 9696:9696 drug-classification
+
+### Benefits of Using Docker
+- **Consistency**: Ensures the same environment across all machines.
+- **Dependency Management**: No need to manually install or configure dependencies.
+- **Portability**: Easily share and replicate the setup.
+
+
