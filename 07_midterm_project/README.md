@@ -13,35 +13,32 @@ This project is designed to predict employee attrition (i.e., whether an employe
 
 ## Instructions on How to Run the Project
 
-### 1. **Clone the repository**
-   If you haven't cloned the repository yet, run the following command:
+### 1. **After downloading the repository**:
+- Extract the contents of the repository.  
+- Navigate to the folder in the terminal, e.g., `cd /path/to/where/you/downloaded/the-folder/folder`.
 
-   ```bash
-   git clone https://github.com/your-repository.git
-   cd your-repository
-   ```
 
 ### 2. **Build the Docker Container**
    The model runs inside a Docker container. To build the Docker image, use the following command:
 
    ```bash
-   docker build -t zoomcamp-test .
+   docker build -t employee-attrition .
    ```
 
 ### 3. **Run the Docker Container**
    After building the Docker image, you can run the container with the following command:
 
    ```bash
-   docker run -it --rm -p 9696:9696 zoomcamp-test
+   docker run -p 9696:9696 -it employee-attrition:latest
    ```
 
    This will start the container and expose the model on port 9696.
 
 ### 4. **Run the Prediction Script**
-   After the Docker container is running, you can use the `predict_test.py` script to test the model with a sample employee's data. This script contains test data for an employee, and running it will return the probability of attrition for that employee.
+   Open a new terminal window and navigate to the project folder where the `predict_test.py` script is located. After the Docker container is running, you can use the `predict_test.py` script to test the model with a sample employee's data. This script contains test data for an employee, and running it will return the probability of attrition for that employee.
 
    ```bash
-   python predict_test.py
+   python3 predict_test.py
    ```
 
    The script will output the probability of the employee leaving the company and whether the employee is predicted to attrite.
