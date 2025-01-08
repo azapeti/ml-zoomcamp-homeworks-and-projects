@@ -1,7 +1,13 @@
 # Documentation for Drug Classification Project
 
 ## Aim of the Project
-The goal of this project is to predict the appropriate drug category for patients based on demographic and clinical features such as age, blood pressure, cholesterol levels, and sodium-to-potassium ratio.
+The goal of this project is to predict the appropriate drug category for patients based on demographic and clinical features such as age, blood pressure, cholesterol levels, and sodium-to-potassium ratio. 
+
+The data used for this project is sourced from [Kaggle](https://www.kaggle.com/datasets/prathamtripathi/drug-classification/data), which provides a labeled dataset containing 200 samples with detailed patient information.
+
+This is a **multiclass classification task**, where the target variable represents different drug categories prescribed to patients.
+
+
 
 ---
 
