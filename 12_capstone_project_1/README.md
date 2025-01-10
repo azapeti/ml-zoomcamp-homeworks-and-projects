@@ -2,11 +2,12 @@
 
 - [Aim of the project](#aim-of-the-project)
 - [Steps to find the best model](#steps-to-find-the-best-model)
-  - [1. Data preparation](#1-data-preparation)
-  - [2. Exploratory Data Analysis (EDA)](#2-exploratory-data-analysis-eda)
-  - [3. Feature engineering](#3-feature-engineering)
-  - [4. Model selection](#4-model-selection)
-  - [5. Cross-Validation](#5-cross-validation)
+  1. Data preparation
+  2. Exploratory data analysis (EDA)
+  3. Feature engineering
+  4. Model selection
+  5. Cross-validation
+
 - [Encouragement to explore the notebook](#encouragement-to-explore-the-notebook)
 - [Finding, Context, and Takeaway sections](#finding-context-and-takeaway-sections)
 - [Running the project in a Docker container](#running-the-project-in-a-docker-container)
