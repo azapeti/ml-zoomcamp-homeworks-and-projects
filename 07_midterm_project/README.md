@@ -1,3 +1,15 @@
+## Table of Contents
+
+- [Description of the Problem](#description-of-the-problem)
+  - [Key Goals](#key-goals)
+- [Instructions on How to Run the Project](#instructions-on-how-to-run-the-project)
+  - [0. After downloading the repository](#0-after-downloading-the-repository)
+  - [1. Pull the base Docker image](#1-pull-the-base-docker-image)
+  - [2. Build the Docker Container](#2-build-the-docker-container)
+  - [3. Run the Docker Container](#3-run-the-docker-container)
+  - [4. Run the Prediction Script](#4-run-the-prediction-script)
+
+
 ## Description of the Problem
 
 This project is designed to predict employee attrition (i.e., whether an employee will leave the company) using various machine learning models. The data includes a variety of employee attributes, such as job role, work-life balance, age, education level, and many others. We will use this data to develop and evaluate different machine learning models, including decision trees, random forests, and XGBoost, to identify the factors contributing to employee attrition.
@@ -13,10 +25,14 @@ This project is designed to predict employee attrition (i.e., whether an employe
 
 ## Instructions on How to Run the Project
 
-### 1. **After downloading the repository**:
+### 0. **After downloading the repository**:
 - Extract the contents of the repository.  
 - Navigate to the folder in the terminal, e.g., `cd /path/to/where/you/downloaded/the-folder/folder`.
 
+### 1. **Pull the base Docker image**:
+   ```bash
+   docker run -it --rm python:3.13.0-slim
+   ```
 
 ### 2. **Build the Docker Container**
    The model runs inside a Docker container. To build the Docker image, use the following command:
