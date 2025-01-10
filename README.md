@@ -1,0 +1,1 @@
+This repo contains the solutions to the homework and projects of the [MLZoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp) course. There may be errors in the homework. The essential folders are the projects (midterm project and capstone project).
