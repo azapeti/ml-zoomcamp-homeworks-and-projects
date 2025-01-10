@@ -2,11 +2,11 @@
 
 - [Aim of the project](#aim-of-the-project)
 - [Steps to find the best model](#steps-to-find-the-best-model)
-  1. Data preparation
-  2. Exploratory data analysis (EDA)
-  3. Feature engineering
-  4. Model selection
-  5. Cross-validation
+  - Data preparation
+  - Exploratory data analysis (EDA)
+  - Feature engineering
+  - Model selection
+  - Cross-validation
 
 - [Encouragement to explore the notebook](#encouragement-to-explore-the-notebook)
 - [Finding, Context, and Takeaway sections](#finding-context-and-takeaway-sections)
